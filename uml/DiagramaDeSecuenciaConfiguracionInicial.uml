@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_HeHuQKa1Eey11qL8LWcEHw" name="diagrama de secuencia 1">
+  <eAnnotations xmi:id="_HeHuQaa1Eey11qL8LWcEHw" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_HeHuQqa1Eey11qL8LWcEHw" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_HeHuQ6a1Eey11qL8LWcEHw" value="3.0.0"/>
+    </contents>
+    <contents xmi:type="uml:Property" xmi:id="_HeHuRKa1Eey11qL8LWcEHw" name="isRoundTrip"/>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_HeHuRaa1Eey11qL8LWcEHw" name="Interaction">
+    <eAnnotations xmi:id="_HeHuRqa1Eey11qL8LWcEHw" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_HeHuR6a1Eey11qL8LWcEHw" name="DiagramName">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_HeHuSKa1Eey11qL8LWcEHw" value="Interaction Sequence diagram"/>
+      </contents>
+    </eAnnotations>
+    <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_HeHuSaa1Eey11qL8LWcEHw" name="locals"/>
+    <lifeline xmi:id="_HeHuSqa1Eey11qL8LWcEHw" name="Controller" coveredBy="_HeHuTqa1Eey11qL8LWcEHw _HeHuUqa1Eey11qL8LWcEHw _HeHuVqa1Eey11qL8LWcEHw _HeHuZqa1Eey11qL8LWcEHw _HeHuaqa1Eey11qL8LWcEHw _HeHueqa1Eey11qL8LWcEHw _HeHufqa1Eey11qL8LWcEHw _HeHujqa1Eey11qL8LWcEHw _HeHukqa1Eey11qL8LWcEHw _HeHumqa1Eey11qL8LWcEHw _HeIVVaa1Eey11qL8LWcEHw"/>
+    <lifeline xmi:id="_HeHuS6a1Eey11qL8LWcEHw" name="View" coveredBy="_HeHuWqa1Eey11qL8LWcEHw _HeHuXqa1Eey11qL8LWcEHw _HeHuYqa1Eey11qL8LWcEHw _HeHubqa1Eey11qL8LWcEHw _HeHucqa1Eey11qL8LWcEHw _HeHudqa1Eey11qL8LWcEHw _HeHugqa1Eey11qL8LWcEHw _HeHuhqa1Eey11qL8LWcEHw _HeHuiqa1Eey11qL8LWcEHw"/>
+    <lifeline xmi:id="_HeHuTKa1Eey11qL8LWcEHw" name="Game" coveredBy="_HeHulqa1Eey11qL8LWcEHw"/>
+    <lifeline xmi:id="_HeHuTaa1Eey11qL8LWcEHw" name="View" coveredBy="_HeIVUaa1Eey11qL8LWcEHw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_HeHuTqa1Eey11qL8LWcEHw" covered="_HeHuSqa1Eey11qL8LWcEHw" start="_HeHuUqa1Eey11qL8LWcEHw" finish="_HeIVVaa1Eey11qL8LWcEHw">
+      <eAnnotations xmi:id="_HeHuT6a1Eey11qL8LWcEHw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_HeHuUKa1Eey11qL8LWcEHw" name="LineNumber">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HeHuUaa1Eey11qL8LWcEHw" value="-1"/>
+        </contents>
+      </eAnnotations>
+    </fragment>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_HeHuUqa1Eey11qL8LWcEHw" covered="_HeHuSqa1Eey11qL8LWcEHw">
+      <eAnnotations xmi:id="_HeHuU6a1Eey11qL8LWcEHw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_HeHuVKa1Eey11qL8LWcEHw" name="LineNumber">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HeHuVaa1Eey11qL8LWcEHw" value="76"/>
+        </contents>
+      </eAnnotations>
+    </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HeHuVqa1Eey11qL8LWcEHw" covered="_HeHuSqa1Eey11qL8LWcEHw" message="_HeIVWaa1Eey11qL8LWcEHw">
+      <eAnnotations xmi:id="_HeHuV6a1Eey11qL8LWcEHw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_HeHuWKa1Eey11qL8LWcEHw" name="LineNumber">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HeHuWaa1Eey11qL8LWcEHw" value="102"/>
+        </contents>
+      </eAnnotations>
+    </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HeHuWqa1Eey11qL8LWcEHw" covered="_HeHuS6a1Eey11qL8LWcEHw" message="_HeIVWaa1Eey11qL8LWcEHw">
+      <eAnnotations xmi:id="_HeHuW6a1Eey11qL8LWcEHw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_HeHuXKa1Eey11qL8LWcEHw" name="LineNumber">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HeHuXaa1Eey11qL8LWcEHw" value="102"/>
+        </contents>
+      </eAnnotations>
+    </fragment>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_HeHuXqa1Eey11qL8LWcEHw" covered="_HeHuS6a1Eey11qL8LWcEHw" start="_HeHuWqa1Eey11qL8LWcEHw" finish="_HeHuYqa1Eey11qL8LWcEHw">
+      <eAnnotations xmi:id="_HeHuX6a1Eey11qL8LWcEHw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_HeHuYKa1Eey11qL8LWcEHw" name="LineNumber">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HeHuYaa1Eey11qL8LWcEHw" value="102"/>
+        </contents>
+      </eAnnotations>
+    </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HeHuYqa1Eey11qL8LWcEHw" covered="_HeHuS6a1Eey11qL8LWcEHw" message="_HeIVWqa1Eey11qL8LWcEHw">
+      <eAnnotations xmi:id="_HeHuY6a1Eey11qL8LWcEHw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_HeHuZKa1Eey11qL8LWcEHw" name="LineNumber">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HeHuZaa1Eey11qL8LWcEHw" value="162"/>
+        </contents>
+      </eAnnotations>
+    </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HeHuZqa1Eey11qL8LWcEHw" covered="_HeHuSqa1Eey11qL8LWcEHw" message="_HeIVWqa1Eey11qL8LWcEHw">
+      <eAnnotations xmi:id="_HeHuZ6a1Eey11qL8LWcEHw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_HeHuaKa1Eey11qL8LWcEHw" name="LineNumber">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HeHuaaa1Eey11qL8LWcEHw" value="162"/>
+        </contents>
+      </eAnnotations>
+    </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HeHuaqa1Eey11qL8LWcEHw" covered="_HeHuSqa1Eey11qL8LWcEHw" message="_HeIVW6a1Eey11qL8LWcEHw">
+      <eAnnotations xmi:id="_HeHua6a1Eey11qL8LWcEHw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_HeHubKa1Eey11qL8LWcEHw" name="LineNumber">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HeHubaa1Eey11qL8LWcEHw" value="234"/>
+        </contents>
+      </eAnnotations>
+    </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HeHubqa1Eey11qL8LWcEHw" covered="_HeHuS6a1Eey11qL8LWcEHw" message="_HeIVW6a1Eey11qL8LWcEHw">
+      <eAnnotations xmi:id="_HeHub6a1Eey11qL8LWcEHw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_HeHucKa1Eey11qL8LWcEHw" name="LineNumber">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HeHucaa1Eey11qL8LWcEHw" value="234"/>
+        </contents>
+      </eAnnotations>
+    </fragment>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_HeHucqa1Eey11qL8LWcEHw" covered="_HeHuS6a1Eey11qL8LWcEHw" start="_HeHubqa1Eey11qL8LWcEHw" finish="_HeHudqa1Eey11qL8LWcEHw">
+      <eAnnotations xmi:id="_HeHuc6a1Eey11qL8LWcEHw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_HeHudKa1Eey11qL8LWcEHw" name="LineNumber">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HeHudaa1Eey11qL8LWcEHw" value="234"/>
+        </contents>
+      </eAnnotations>
+    </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HeHudqa1Eey11qL8LWcEHw" covered="_HeHuS6a1Eey11qL8LWcEHw" message="_HeIVXaa1Eey11qL8LWcEHw">
+      <eAnnotations xmi:id="_HeHud6a1Eey11qL8LWcEHw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_HeHueKa1Eey11qL8LWcEHw" name="LineNumber">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HeHueaa1Eey11qL8LWcEHw" value="294"/>
+        </contents>
+      </eAnnotations>
+    </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HeHueqa1Eey11qL8LWcEHw" covered="_HeHuSqa1Eey11qL8LWcEHw" message="_HeIVXaa1Eey11qL8LWcEHw">
+      <eAnnotations xmi:id="_HeHue6a1Eey11qL8LWcEHw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_HeHufKa1Eey11qL8LWcEHw" name="LineNumber">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HeHufaa1Eey11qL8LWcEHw" value="294"/>
+        </contents>
+      </eAnnotations>
+    </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HeHufqa1Eey11qL8LWcEHw" covered="_HeHuSqa1Eey11qL8LWcEHw" message="_HeIVXqa1Eey11qL8LWcEHw">
+      <eAnnotations xmi:id="_HeHuf6a1Eey11qL8LWcEHw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_HeHugKa1Eey11qL8LWcEHw" name="LineNumber">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HeHugaa1Eey11qL8LWcEHw" value="367"/>
+        </contents>
+      </eAnnotations>
+    </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HeHugqa1Eey11qL8LWcEHw" covered="_HeHuS6a1Eey11qL8LWcEHw" message="_HeIVXqa1Eey11qL8LWcEHw">
+      <eAnnotations xmi:id="_HeHug6a1Eey11qL8LWcEHw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_HeHuhKa1Eey11qL8LWcEHw" name="LineNumber">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HeHuhaa1Eey11qL8LWcEHw" value="367"/>
+        </contents>
+      </eAnnotations>
+    </fragment>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_HeHuhqa1Eey11qL8LWcEHw" covered="_HeHuS6a1Eey11qL8LWcEHw" start="_HeHugqa1Eey11qL8LWcEHw" finish="_HeHuiqa1Eey11qL8LWcEHw">
+      <eAnnotations xmi:id="_HeHuh6a1Eey11qL8LWcEHw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_HeHuiKa1Eey11qL8LWcEHw" name="LineNumber">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HeHuiaa1Eey11qL8LWcEHw" value="367"/>
+        </contents>
+      </eAnnotations>
+    </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HeHuiqa1Eey11qL8LWcEHw" covered="_HeHuS6a1Eey11qL8LWcEHw" message="_HeIVX6a1Eey11qL8LWcEHw">
+      <eAnnotations xmi:id="_HeHui6a1Eey11qL8LWcEHw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_HeHujKa1Eey11qL8LWcEHw" name="LineNumber">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HeHujaa1Eey11qL8LWcEHw" value="427"/>
+        </contents>
+      </eAnnotations>
+    </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HeHujqa1Eey11qL8LWcEHw" covered="_HeHuSqa1Eey11qL8LWcEHw" message="_HeIVX6a1Eey11qL8LWcEHw">
+      <eAnnotations xmi:id="_HeHuj6a1Eey11qL8LWcEHw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_HeHukKa1Eey11qL8LWcEHw" name="LineNumber">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HeHukaa1Eey11qL8LWcEHw" value="427"/>
+        </contents>
+      </eAnnotations>
+    </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HeHukqa1Eey11qL8LWcEHw" covered="_HeHuSqa1Eey11qL8LWcEHw" message="_HeIVYKa1Eey11qL8LWcEHw">
+      <eAnnotations xmi:id="_HeHuk6a1Eey11qL8LWcEHw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_HeHulKa1Eey11qL8LWcEHw" name="LineNumber">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HeHulaa1Eey11qL8LWcEHw" value="503"/>
+        </contents>
+      </eAnnotations>
+    </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HeHulqa1Eey11qL8LWcEHw" covered="_HeHuTKa1Eey11qL8LWcEHw" message="_HeIVYKa1Eey11qL8LWcEHw">
+      <eAnnotations xmi:id="_HeHul6a1Eey11qL8LWcEHw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_HeHumKa1Eey11qL8LWcEHw" name="LineNumber">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HeHumaa1Eey11qL8LWcEHw" value="503"/>
+        </contents>
+      </eAnnotations>
+    </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HeHumqa1Eey11qL8LWcEHw" covered="_HeHuSqa1Eey11qL8LWcEHw" message="_HeIVYaa1Eey11qL8LWcEHw">
+      <eAnnotations xmi:id="_HeHum6a1Eey11qL8LWcEHw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_HeHunKa1Eey11qL8LWcEHw" name="LineNumber">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HeIVUKa1Eey11qL8LWcEHw" value="588"/>
+        </contents>
+      </eAnnotations>
+    </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HeIVUaa1Eey11qL8LWcEHw" covered="_HeHuTaa1Eey11qL8LWcEHw" message="_HeIVYaa1Eey11qL8LWcEHw">
+      <eAnnotations xmi:id="_HeIVUqa1Eey11qL8LWcEHw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_HeIVU6a1Eey11qL8LWcEHw" name="LineNumber">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HeIVVKa1Eey11qL8LWcEHw" value="588"/>
+        </contents>
+      </eAnnotations>
+    </fragment>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_HeIVVaa1Eey11qL8LWcEHw" covered="_HeHuSqa1Eey11qL8LWcEHw">
+      <eAnnotations xmi:id="_HeIVVqa1Eey11qL8LWcEHw" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_HeIVV6a1Eey11qL8LWcEHw" name="LineNumber">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_HeIVWKa1Eey11qL8LWcEHw" value="649"/>
+        </contents>
+      </eAnnotations>
+    </fragment>
+    <message xmi:id="_HeIVWaa1Eey11qL8LWcEHw" name="askHumanPlayers()" receiveEvent="_HeHuWqa1Eey11qL8LWcEHw" sendEvent="_HeHuVqa1Eey11qL8LWcEHw"/>
+    <message xmi:id="_HeIVWqa1Eey11qL8LWcEHw" messageSort="reply" receiveEvent="_HeHuZqa1Eey11qL8LWcEHw" sendEvent="_HeHuYqa1Eey11qL8LWcEHw"/>
+    <message xmi:id="_HeIVW6a1Eey11qL8LWcEHw" name="askAiPlayers()" receiveEvent="_HeHubqa1Eey11qL8LWcEHw" sendEvent="_HeHuaqa1Eey11qL8LWcEHw">
+      <argument xmi:type="uml:LiteralString" xmi:id="_HeIVXKa1Eey11qL8LWcEHw" value="int humanPlayerCount"/>
+    </message>
+    <message xmi:id="_HeIVXaa1Eey11qL8LWcEHw" messageSort="reply" receiveEvent="_HeHueqa1Eey11qL8LWcEHw" sendEvent="_HeHudqa1Eey11qL8LWcEHw"/>
+    <message xmi:id="_HeIVXqa1Eey11qL8LWcEHw" name="askRoundCount()" receiveEvent="_HeHugqa1Eey11qL8LWcEHw" sendEvent="_HeHufqa1Eey11qL8LWcEHw"/>
+    <message xmi:id="_HeIVX6a1Eey11qL8LWcEHw" messageSort="reply" receiveEvent="_HeHujqa1Eey11qL8LWcEHw" sendEvent="_HeHuiqa1Eey11qL8LWcEHw"/>
+    <message xmi:id="_HeIVYKa1Eey11qL8LWcEHw" name="Game()" messageSort="createMessage" receiveEvent="_HeHulqa1Eey11qL8LWcEHw" sendEvent="_HeHukqa1Eey11qL8LWcEHw"/>
+    <message xmi:id="_HeIVYaa1Eey11qL8LWcEHw" name="View()" messageSort="createMessage" receiveEvent="_HeIVUaa1Eey11qL8LWcEHw" sendEvent="_HeHumqa1Eey11qL8LWcEHw">
+      <argument xmi:type="uml:LiteralString" xmi:id="_HeIVYqa1Eey11qL8LWcEHw" value="game"/>
+    </message>
+  </packagedElement>
+</uml:Model>
